@@ -9,6 +9,9 @@ namespace AppFigurinhas
         public frmCadFigurinha()
         {
             InitializeComponent();
+
+            cmbStatus.Items.Add("Obtido");
+            cmbStatus.Items.Add("Desejado");
         }
 
         void MsgAtencao(string Msg)
@@ -56,9 +59,7 @@ namespace AppFigurinhas
                 Environment.NewLine +
                 "RARIDADE=" + cmbRaridade.Text +
                 Environment.NewLine +
-                "OBTIDO=" + chkObtido.Checked +
-                Environment.NewLine +
-                "DESEJADO=" + chkDesejado.Checked;
+                "Status=" + cmbStatus.Text;
 
             return cadastro;
         }
@@ -89,6 +90,12 @@ namespace AppFigurinhas
                 return false;
             }
 
+            if (string.IsNullOrEmpty(cmbStatus.Text))
+            {
+                MsgAtencao("Selecione o status.");
+                return false;
+            }
+
             return true;
         }
 
@@ -98,8 +105,7 @@ namespace AppFigurinhas
             txtNome.Clear();
             txtSelecao.Clear();
             cmbRaridade.Text = "";
-            chkObtido.Checked = false;
-            chkDesejado.Checked = false;
+            cmbStatus.Text = "";
 
             picFoto.Image = null;
             picFoto.ImageLocation = "";
@@ -173,6 +179,11 @@ namespace AppFigurinhas
                 this.Close();
         }
 
+        private void cmbStatus_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -184,6 +195,16 @@ namespace AppFigurinhas
         }
 
         private void cmbRaridade_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSelecao_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNome_TextChanged(object sender, EventArgs e)
         {
 
         }
