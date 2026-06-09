@@ -26,10 +26,13 @@ namespace AppFigurinhas
         private void versãoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show(
-                "Minha Coleção de Figurinhas" + Environment.NewLine +
+                "⚽ Bem-vindo ao App Figurinhas 2026!\r\n\r\nEste aplicativo foi criado para ajudar os colecionadores " +
+                "a organizarem suas figurinhas da Copa do Mundo de 2026 de forma simples e divertida. Aqui você pode cadastrar " +
+                "figurinhas, acompanhar quais já possui, marcar as que deseja conseguir e visualizar sua coleção com facilidade." +
+                "\r\n\r\nMonte sua seleção dos sonhos, complete seu álbum e divirta-se colecionando!\r\n\r\n🏆 Boa sorte na busca pelas " +
+                "figurinhas mais raras!" +
                 Environment.NewLine +
-                "Esse aplicativo foi desenvolvido para que nossos usuários possam cadastrar suas" +
-                "figurinhas do álbum copa do mundo de 2026 e poder analisar as figurinhas que lhe faltam e as que já obtiveram.");
+                Environment.NewLine + "Versão 1.0.0");
         }
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
