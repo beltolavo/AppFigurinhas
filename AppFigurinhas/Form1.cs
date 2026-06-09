@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Windows.Forms;
 
 namespace AppFigurinhas
@@ -8,16 +9,6 @@ namespace AppFigurinhas
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void cdasToolStripMenuItem_Click(object sender, EventArgs e)
@@ -53,5 +44,39 @@ namespace AppFigurinhas
             if (retorno == DialogResult.Yes)
                 this.Close();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            frmListaFigurinhas frm = new frmListaFigurinhas();
+            frm.ShowDialog();
+        }
+
+        private void pcbTelaCadastro_Click(object sender, EventArgs e)
+        {
+            frmCadFigurinha frm = new frmCadFigurinha();
+            frm.ShowDialog();
+        }
+
+        private void ajudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pcFundo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }
