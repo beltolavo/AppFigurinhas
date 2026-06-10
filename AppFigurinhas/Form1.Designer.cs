@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.lbl = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cdasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -39,13 +40,10 @@
             this.suporteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lblData = new System.Windows.Forms.Label();
-            this.lblHora = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.pcbTelaFigurinhas = new System.Windows.Forms.PictureBox();
             this.pcbTelaCadastro = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.picFundo = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -65,6 +63,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(739, 65);
             this.panel1.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(329, 4);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(85, 52);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Versão 1.0.0\nOlavo Beltran\nKaique Messias\nKauã Emanuel";
             // 
             // lbl
             // 
@@ -119,14 +128,14 @@
             // versãoToolStripMenuItem
             // 
             this.versãoToolStripMenuItem.Name = "versãoToolStripMenuItem";
-            this.versãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.versãoToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.versãoToolStripMenuItem.Text = "Sobre/Versão";
             this.versãoToolStripMenuItem.Click += new System.EventHandler(this.versãoToolStripMenuItem_Click);
             // 
             // suporteToolStripMenuItem
             // 
             this.suporteToolStripMenuItem.Name = "suporteToolStripMenuItem";
-            this.suporteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.suporteToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.suporteToolStripMenuItem.Text = "Suporte";
             // 
             // sairToolStripMenuItem
@@ -142,8 +151,6 @@
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.lblData);
-            this.panel2.Controls.Add(this.lblHora);
             this.panel2.Controls.Add(this.pcbTelaFigurinhas);
             this.panel2.Controls.Add(this.pcbTelaCadastro);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -152,31 +159,16 @@
             this.panel2.Size = new System.Drawing.Size(739, 56);
             this.panel2.TabIndex = 7;
             // 
-            // lblData
+            // label1
             // 
-            this.lblData.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblData.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblData.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblData.ForeColor = System.Drawing.Color.White;
-            this.lblData.Location = new System.Drawing.Point(564, 33);
-            this.lblData.Name = "lblData";
-            this.lblData.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblData.Size = new System.Drawing.Size(169, 25);
-            this.lblData.TabIndex = 6;
-            this.lblData.Text = "hora";
-            // 
-            // lblHora
-            // 
-            this.lblHora.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblHora.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblHora.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHora.ForeColor = System.Drawing.Color.White;
-            this.lblHora.Location = new System.Drawing.Point(567, 0);
-            this.lblHora.Name = "lblHora";
-            this.lblHora.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblHora.Size = new System.Drawing.Size(169, 33);
-            this.lblHora.TabIndex = 5;
-            this.lblHora.Text = "hora";
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(324, 16);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(105, 21);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Menu Inicial";
             // 
             // pcbTelaFigurinhas
             // 
@@ -200,17 +192,6 @@
             this.pcbTelaCadastro.TabStop = false;
             this.pcbTelaCadastro.Click += new System.EventHandler(this.pcbTelaCadastro_Click);
             // 
-            // label1
-            // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(324, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 21);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Menu Inicial";
-            // 
             // picFundo
             // 
             this.picFundo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -218,23 +199,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.picFundo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picFundo.BackgroundImage")));
             this.picFundo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picFundo.Location = new System.Drawing.Point(0, 136);
+            this.picFundo.Location = new System.Drawing.Point(0, 123);
             this.picFundo.Name = "picFundo";
-            this.picFundo.Size = new System.Drawing.Size(739, 261);
+            this.picFundo.Size = new System.Drawing.Size(739, 274);
             this.picFundo.TabIndex = 1;
             this.picFundo.TabStop = false;
             this.picFundo.Click += new System.EventHandler(this.pcFundo_Click);
-            // 
-            // label2
-            // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(329, 4);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 52);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Versão 1.0.0\nOlavo Beltran\nKaique Messias\nKauã Emanuel";
             // 
             // label3
             // 
@@ -288,8 +258,6 @@
         private System.Windows.Forms.ToolStripMenuItem suporteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label lblData;
-        private System.Windows.Forms.Label lblHora;
         private System.Windows.Forms.PictureBox pcbTelaFigurinhas;
         private System.Windows.Forms.PictureBox pcbTelaCadastro;
         private System.Windows.Forms.Label label1;

@@ -124,7 +124,7 @@
   <data name="pcbTelaFigurinhas.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAtUSURBVFhH3Zh5
+        wQAADsEBuJFr7QAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAtUSURBVFhH3Zh5
         WJVVHscPlwuX7XK57I6ALCIZyr66ALKopIYoILijAoJak5XmMi4lKkaKpLkgIiK4YZvVVFOmTTXT4lRW
         amZOE7hNQpq7kZ95zrlYWPgkOv/MnOf5Pu/7nvOe8/vc3+8953fuEeJ/uJgLITyEEL2EEKOEEHOEEM8I
         IXYKIV4TQuwRQrwshNgohJgmhPBp09e3tU62vdL6ruwj+64WQsxuHVOOLW1IW7dVdEKIxUKIPwshjgoh
@@ -179,7 +179,7 @@
   <data name="pcbTelaCadastro.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAArhSURBVFhHtZkJ
+        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAArhSURBVFhHtZkJ
         VFXVGsc3msokKIKoODMKyKRZ+Xw5ljmgomkZipRDgy1nX1k9n5YDUmSS4pihggqKY9pDTZMcQREx05xQ
         AZkEQWQU7u+tvZmPoKW+/1r/dbnf2efe393f+b69z0GIKlkIIfYLIUqEEPwfnSGEGF/te/+ygnu+/gYH
         T0ez/3Qs+0+f4+fouMd636lY9p08q/zzE8bvPxVLRMw55q8NpZG+vgR10AI8Sb8uXrGaUuB+ue8+xplA

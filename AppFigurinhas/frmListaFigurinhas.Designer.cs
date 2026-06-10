@@ -46,8 +46,6 @@
             this.btnVisualizar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblHora = new System.Windows.Forms.Label();
-            this.lblData = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1.SuspendLayout();
@@ -232,32 +230,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Versão 1.0.0\nOlavo Beltran\nKaique Messias\nKauã Emanuel";
             // 
-            // lblHora
-            // 
-            this.lblHora.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblHora.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHora.ForeColor = System.Drawing.Color.White;
-            this.lblHora.Location = new System.Drawing.Point(548, 8);
-            this.lblHora.Name = "lblHora";
-            this.lblHora.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblHora.Size = new System.Drawing.Size(169, 25);
-            this.lblHora.TabIndex = 5;
-            this.lblHora.Text = "hora";
-            // 
-            // lblData
-            // 
-            this.lblData.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblData.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblData.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblData.ForeColor = System.Drawing.Color.White;
-            this.lblData.Location = new System.Drawing.Point(545, 33);
-            this.lblData.Name = "lblData";
-            this.lblData.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblData.Size = new System.Drawing.Size(169, 25);
-            this.lblData.TabIndex = 6;
-            this.lblData.Text = "hora";
-            // 
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -274,8 +246,6 @@
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.lblData);
-            this.panel2.Controls.Add(this.lblHora);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
@@ -329,8 +299,6 @@
         private System.Windows.Forms.ComboBox cmbFiltroStatus;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblHora;
-        private System.Windows.Forms.Label lblData;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
     }
